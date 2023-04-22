@@ -1,0 +1,158 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+ 
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Bhai+2:wght@700&display=swap');
+
+ /* font-family: 'Baloo Bhai 2', cursive;
+font-family: 'Montserrat', sans-serif; */
+*{
+margin: 0px;
+padding:0px ;
+}
+html,body{
+   height: 100%;
+   width: 100%;
+  
+}
+.wrapper{
+   min-height:100% ;
+   overflow: hidden;
+   
+  
+}
+.BLOCK1{
+  
+   background-image:url(../png/Place\ Your\ Imag.png);
+background-repeat: no-repeat;
+background-size:cover;
+}
+   
+.pad{ 
+max-width: 1440px;
+padding-left: 5%;
+padding-right: 5%;
+padding-bottom: 5%;
+}
+
+
+.block1{
+text-align: right;
+display:flex;
+flex-direction: column;
+align-items:end;
+}
+
+#title1{
+ font-family: 'Baloo Bhai 2', cursive;
+font-size: 581%;
+font-weight: 800;
+font-style:normal;
+color: #FFFFFF;
+text-align: right;
+}
+#subtitle1{
+ font-family: 'Montserrat', sans-serif;
+ font-size: 260%;
+ font-weight: 400;
+ font-style: normal;
+ text-align: right;
+ color: #FFFFFF;
+ 
+}
+.buttonwrapper{
+ display: flex;
+   flex-direction: column;
+   align-items: flex-end;
+}
+.search{
+width: 222px;
+height: 60px;
+background-image: 
+url(../png/search.png);
+background-repeat: no-repeat;
+background-size: cover;
+margin-top: 5vh;
+
+
+
+
+}
+.contact{
+ width: 222px;
+height: 60px;
+background-image: 
+url(../png/contact.png);
+background-repeat: no-repeat;
+background-size: cover;
+margin-top: 3vh;
+
+
+}
+
+.title{
+
+ font-family: 'Baloo Bhai 2', cursive;
+ font-size: 50px;
+ font-weight: 800;
+ font-style: normal;
+ text-align: left;
+ color: #FFFFFF;
+ 
+ }
+
+ 
+#subtitle2{
+ font-family: 'Montserrat', sans-serif;
+ font-size: 24px;
+ font-weight: 400;
+ font-style: normal;
+ text-align:left;
+ color: #FFFFFF;
+ line-height:250% ;
+ 
+  }
+  #gradient1{
+background-image:url(../png/Gradientblock1.png);
+min-height: 100px;
+background-repeat: no-repeat;
+background-size:cover;
+
+  }
+  .block2{
+
+height: 100vh;
+background-size:100%;
+background-repeat: no-repeat;
+background-position: 0px 0px;
+
+}
+.vibewrapper{
+ 
+ min-height:27vh ;
+
+}
+.vibe{
+   background-image: 
+   url(../png/Vector\ Smart\ Ob.png);
+  height: 260px;
+   background-repeat: no-repeat;
+   background-position: 0px 0px;
+   background-size:100%;
+   opacity: 0.7;
+   filter:hue-rotate(0deg) contrast(227%) brightness(28%)
+        
+   }
+   .line{
+   background-image: url(../png/line.png);
+   height:7px;
+   background-repeat: no-repeat;
+   background-position: left 0%;
+   background-size:100%;
+       
+    }
+
+
+    .BLOCK8{
+      background-color:#168ee4;
+      background-repeat: no-repeat;
+      background-size:cover;
+    }

@@ -1,0 +1,111 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+ 
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Bhai+2:wght@700&display=swap');
+
+ /* font-family: 'Baloo Bhai 2', cursive;
+font-family: 'Montserrat', sans-serif; */
+.BLOCK3{
+
+    background-color: #00889B;
+    padding-top: 10px;
+    border-top: #00889B 10px solid;
+    border-bottom: #00889B 10px solid;
+    
+}
+#block3gradient1{
+    height: 322px;
+background-image:url(../png/gradient3.png); 
+    background-repeat: no-repeat;
+    background-size:cover;
+}
+
+#block3middle{ 
+   height: 645px;
+ background:#00354B;
+    background-repeat: no-repeat;
+    background-size:cover;
+    border-top: #00354B 20px solid;
+    border-bottom: #00354B 20px solid;
+}
+
+
+    
+.block3box{
+    min-width: 100%;
+    height: 200px;
+display: flex;
+flex-direction: column;
+}
+
+#block3text{
+font-family: 'Montserrat', sans-serif;
+font-size: 265%;
+font-weight: 400;
+font-style: normal;
+text-align: center;
+color: #FFFFFF;
+
+}
+#block3title{
+font-family: 'Baloo Bhai 2', cursive;
+font-size: 637%;
+font-weight: 800;
+font-style: normal;
+text-align: center ;
+color: azure;
+
+}
+.circle{    
+    width: 188px;
+    height: 188px;
+ background-color: #00889B;
+ border-radius:100% ;
+    display: flex;   
+    align-items: center;
+    justify-content: center;
+}
+
+
+.circlebox{
+min-width: 1000px;
+display: flex;
+flex-direction: row;
+justify-content: center;
+ gap: 10%;
+ padding-top: 189px;
+ padding-bottom: 189px;
+
+    }
+
+
+.circletitle{
+font-family: 'Montserrat', sans-serif;
+font-size: 250%;
+font-weight: 500;
+font-style: normal;
+text-align: center;
+color: #FFFFFF;
+}
+.circlewrap{
+    min-width: 300px;
+ display: flex;
+    flex-direction: column;
+justify-content: center;
+align-items: center;
+
+}
+.circlesubtitle{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 32px;
+    font-weight: 400;
+    font-style: normal;
+    text-align: right;
+    color: #FFFFFF;
+}
+#block3gradient2{
+    min-height: 432px;
+
+ background-image:url(../png/block3gradient2.png); 
+    background-repeat: no-repeat;
+    background-size:cover;
+}

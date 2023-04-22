@@ -1,0 +1,58 @@
+ /* font-family: 'Baloo Bhai 2', cursive;
+font-family: 'Montserrat', sans-serif; */
+.BLOCK7{
+background-color:#00889B ;
+
+
+}
+#block7gradient{
+    min-height: 322px;
+
+    background-image:url(../png/gradient3.png); 
+       background-repeat: no-repeat;
+       background-size:cover;
+   
+}
+#block7middle{
+    height: 800px;
+    background:#00354B;
+       background-repeat: no-repeat;
+       background-size:cover;
+       border-top: #00354B 2px solid;
+       border-bottom:#00354B 2px solid; ;
+       
+}
+#block7row{
+    display: flex;
+    flex-direction: row;
+   justify-content: space-between;
+}
+#block7title{
+    font-family: 'Baloo Bhai 2', cursive;
+    font-size: 102px;
+    font-weight: 800;
+    font-style: normal;
+    text-align: left;
+    color: #FFFFFF;
+    margin-top: 2.2%;
+}
+#block7box1{
+    
+    width: 601px;
+    height: 533px;
+    
+}
+#block7box2{
+    border: #f4fcff 2px solid;
+    width: 601px;
+    height: 533px;
+}
+.location{
+font-family: 'Montserrat', sans-serif;
+font-size: 23px;
+font-weight: 400;
+font-style: normal;
+text-align: left;
+color: #FFFFFF;
+padding-bottom: 5%;
+}

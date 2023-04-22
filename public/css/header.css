@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Bhai+2&family=Montserrat&family=Pacifico&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Bhai+2&family=Montserrat:wght@400;500&family=Pacifico&display=swap');
+
+
+/* font-family: 'Baloo Bhai 2', cursive;
+font-family: 'Montserrat', sans-serif;
+font-family: 'Pacifico', cursive; */
+*{
+    text-decoration: none;
+    padding: 0px;
+    margin: 0px;
+}
+header{
+  width:100% ;
+  height:144px ;
+  background-color:rgb(1,10,1);
+  padding: 0px 4%;
+  box-sizing:border-box;
+  opacity: 0.7;
+  
+  
+}
+
+
+.headwrapper {
+line-height:817% ;
+display:flex;
+align-items: center;
+justify-content: space-between;
+
+
+}
+
+.logo {
+ 
+font-family: 'Pacifico', cursive;
+font-size: 230%;
+font-weight: 400;
+font-style: normal;
+text-align: right;
+
+    
+}
+.logo a{
+    color: #FFFFFF;
+}
+
+ .menu-list{
+    font-family: 'Montserrat', sans-serif;
+    
+    
+   
+   
+ }
+
+
+.item{
+list-style: none;
+
+
+    
+}
+
+.item a {
+  
+margin-left:125px ;
+font-size: 22px;
+font-weight: 500;
+font-style: normal;
+color: #FFFFFF;
+}
+
+ul{
+  display: flex;
+   
+}
+
+
